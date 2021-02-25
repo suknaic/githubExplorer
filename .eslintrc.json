@@ -4,11 +4,10 @@
         "es2021": true
     },
     "extends": [
-        "plugin:react/recommended",
         "airbnb",
+        "plugin:react/recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:prettier/recommended",
-        "prettier/@typescript-eslint",
         "plugin:jsx-a11y/recommended"
     ],
     "parser": "@typescript-eslint/parser",
@@ -32,6 +31,7 @@
       "react-hooks/exhaustive-deps": "warn",
       "react/jsx-filename-extension": [1, {"extensions": [".tsx"]}],
       "import/prefer-default-export": "off",
+      "no-use-before-define": ["off"],
       "import/extensions":[
         "error",
         "ignorePackages",

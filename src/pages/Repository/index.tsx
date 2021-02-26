@@ -16,7 +16,7 @@ const Repository: React.FC = () => {
     <>
       <Header>
         <img src={logo} alt="github explorer" />
-        <Link to="/dashboar">
+        <Link to="/">
           <FiChevronsLeft size={16} />
           voltar
         </Link>
